@@ -80,4 +80,12 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>ssh-repository</id>
+            <url>scpexe://minecraft/home/minecraft/minecraft_server/plugins</url>
+            <!--          HOST      /FULL_PATH                                -->
+        </repository>
+    </distributionManagement>
 </project>
