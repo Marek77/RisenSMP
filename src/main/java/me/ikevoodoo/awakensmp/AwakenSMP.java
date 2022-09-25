@@ -36,6 +36,7 @@ public final class AwakenSMP extends JavaPlugin {
         pm.registerEvents(new PlayerDamageListener(), this);
         pm.registerEvents(new PlayerPlaceListener(), this);
         pm.registerEvents(new PlayerJoinListener(), this);
+        pm.registerEvents(new PlayerMoveListener(), this);
         pm.registerEvents(new CraftItemListener(), this);
         pm.registerEvents(new MoveItemListener(), this);
 
